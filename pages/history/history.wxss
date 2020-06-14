@@ -1,0 +1,20 @@
+/* pages/history/history.wxss */
+
+.history_list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.history_item{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #eee;
+  margin: 10rpx;
+  padding: 10rpx;
+}

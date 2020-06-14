@@ -1,0 +1,32 @@
+<view class="container">
+
+  <view class="show">
+  <text wx:if="{{result !== ''}}">{{result}}</text>
+  <text wx:if="{{formula !== ''}}">{{formula}}</text>
+  </view>
+
+  <view class="main">
+    <view class="btn" bindtap="clickBtn" id="fun_cls">C</view>
+    <view class="btn" bindtap="clickBtn" id="fun_del">←</view>
+    <view class="btn" bindtap="clickBtn" id="fun_history">
+      <view class="icon_history"></view>
+    </view>
+    <view class="btn" bindtap="clickBtn" id="op_+">+</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_9">9</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_8">8</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_8">7</view>
+    <view class="btn" bindtap="clickBtn" id="op_-">-</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_6">6</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_5">5</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_4">4</view>
+    <view class="btn" bindtap="clickBtn" id="op_*">*</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_3">3</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_2">2</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_1">1</view>
+    <view class="btn" bindtap="clickBtn" id="opt_/">/</view>
+    <view class="btn btn_2 btn_blue" bindtap="clickBtn" id="num_0">0</view>
+    <view class="btn btn_blue" bindtap="clickBtn" id="num_.">.</view>
+    <view class="btn" bindtap="clickBtn" id="fun_equal">=</view>
+  </view>
+
+</view>

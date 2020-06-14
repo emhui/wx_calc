@@ -1,0 +1,12 @@
+<view wx:if="{{history.length === 0}}" class="history_list">暂时没有历史记录</view>
+
+<view wx:if="{{history.length !== 0}}" class="history_list">
+  <view wx:for="{{history}}" wx:for-item="data" wx:for-index="idx" class="history_item">
+  <view class="history_id">
+    {{idx}}
+  </view>
+  <view class="history_content">
+    {{data}}
+  </view>
+  </view>
+</view>

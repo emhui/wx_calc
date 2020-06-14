@@ -1,0 +1,70 @@
+.show{
+  flex: 1;
+  background-color: #CCFF66;
+  color: #000;
+  font-size: 50rpx;
+}
+
+.main{
+  flex: 3;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 4rpx;
+  padding: 4rpx;
+}
+
+.btn{
+  background-color: #66CCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+
+.btn_2{
+  grid-column-start: span 2;
+}
+
+.btn:active{
+  opacity: .9;
+}
+
+.btn_blue{
+  background-color:  #FF99CC;
+}
+
+.icon_history{
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  border: 4rpx solid white;
+  position: relative;
+}
+
+.icon_history::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 40%;
+  width: 4rpx;
+  background-color: white;
+  transform: translate(-50%,-100%);
+}
+
+.icon_history::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 4rpx;
+  background-color: white;
+  transform: translateX(-2rpx);
+}
